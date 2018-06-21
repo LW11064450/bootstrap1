@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>Home</title>
+
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!--[if lt IE 9]>
+    <script src="lib/html5shiv/html5shiv.min.js"></script>
+    <script src="lib/respond/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!--顶部通栏-->
+<header id="header">
+    <div class="topbar hidden-xs">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-xs-4">
+                    <div class="top-tel">
+                        <i class="fa fa-phone-square"></i>
+                        <span>+0123 456 70 90</span>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xs-8">
+                    <div class="topbar-right text-right">
+                        <ul class="top-alink">
+                            <li><a href="#" class="fa fa-facebook"></a></li>
+                            <li><a href="#" class="fa fa-twitter"></a></li>
+                            <li><a href="#" class="fa fa-linkedin"></a></li>
+                            <li><a href="#" class="fa fa-dribbble"></a></li>
+                            <li><a href="#" class="fa fa-skype"></a></li>
+                        </ul>
+                        <div class="search">
+                            <form role="form">
+                                <input type="text" class="search-form" placeholder="Search">
+                                <i class="fa fa-search"></i>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-inverse navbar-static-top">
+        <!-- We use the fluid option here to avoid overriding the fixed width of a normal container within the narrow content columns. -->
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-8" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img src="img/logo.png" alt="">
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-8">
+                <ul class="nav nav-pills navbar-right">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="">Portfolio</a></li>
+                    <li class="dropdown">
+                        <a id="drop1" href="http://www.xuewangzhan.net/bootstrap/16385.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle">Pages
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-left" aria-labelledby="drop1">
+                            <li><a href="http://www.xuewangzhan.net/bootstrap/16385.html">Blog Single</a></li>
+                            <li><a href="#">Pricing</a></li>
+                            <li><a href="#">404</a></li>
+                            <li><a href="#">Shortcodes</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="Blogs.html">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div>
+    </nav>
+</header>
+
+<!--轮播图-->
+<section id="main-ad">
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active" style="background-image: url('img/slider/bg1.jpg')">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 carousel-right-txt">
+                            <p class="animation animation-item01">Lorem ipsum dolor坐在amet consectetur adipisicing elit</p>
+                            <p class="animation animation-item02">Accusantium doloremque laudantium totam rem aperiam，eaque ipsa ...</p>
+                            <a class="btn btn-default animation animation-item03" href="#" role="button">阅读更多</a>
+                        </div>
+                        <div class="col-sm-6 animation animation-item04 hidden-xs">
+                            <img src="img/slider/img1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item" style="background-image: url('img/slider/bg2.jpg')">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 carousel-right-txt">
+                            <p class="animation animation-item01">Lorem ipsum dolor坐在amet consectetur adipisicing elit</p>
+                            <p class="animation animation-item02">Accusantium doloremque laudantium totam rem aperiam，eaque ipsa ...</p>
+                            <a class="btn btn-default animation animation-item03" href="#" role="button">阅读更多</a>
+                        </div>
+                        <div class="col-sm-6 animation animation-item04 hidden-xs">
+                            <img src="img/slider/img2.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item" style="background-image: url('img/slider/bg3.jpg')">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 carousel-right-txt">
+                            <p class="animation animation-item01">Lorem ipsum dolor坐在amet consectetur adipisicing elit</p>
+                            <p class="animation animation-item02">Accusantium doloremque laudantium totam rem aperiam，eaque ipsa ...</p>
+                            <a class="btn btn-default animation animation-item03" href="#" role="button">阅读更多</a>
+                        </div>
+                        <div class="col-sm-6 animation animation-item04 hidden-xs">
+                            <img src="img/slider/img3.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control hidden-xs" href="#carousel-example-generic" role="button" data-slide="prev">
+            <i class="fa fa-chevron-left"></i>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control hidden-xs" href="#carousel-example-generic" role="button" data-slide="next">
+            <i class="fa fa-chevron-right"></i>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</section>
+
+<!--features-->
+<section id="features">
+    <div class="container">
+        <div class="features-title-content wow animated fadeInDown">
+            <h3>Features</h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                et dolore magna aliqua. Ut enim ad minim veniam
+            </p>
+        </div>
+        <div class="features-items">
+            <div class="row">
+                <div class="col-md-4 col-sm-6 col-xs-12 wow animated fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                    <div class="media">
+                        <div class="media-left">
+                            <i class="fa fa-bullhorn"></i>
+                        </div>
+                        <div class="media-body">
+                            <h2 class="media-heading">Fresh and Clean</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 wow animated fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                    <div class="media">
+                        <div class="media-left">
+                            <i class="fa fa-cloud-download"></i>
+                        </div>
+                        <div class="media-body">
+                            <h2 class="media-heading">Retina ready</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 wow animated fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                    <div class="media">
+                        <div class="media-left">
+                            <i class="fa fa-leaf"></i>
+                        </div>
+                        <div class="media-body">
+                            <h2 class="media-heading">Easy to customize</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 wow animated fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                    <div class="media">
+                        <div class="media-left">
+                            <i class="fa fa-comment"></i>
+                        </div>
+                        <div class="media-body">
+                            <h2 class="media-heading">Adipisicing elit</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 wow animated fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                    <div class="media">
+                        <div class="media-left">
+                            <i class="fa fa-cogs"></i>
+                        </div>
+                        <div class="media-body">
+                            <h2 class="media-heading">Sed do eiusmod</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 wow animated fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                    <div class="media">
+                        <div class="media-left">
+                            <i class="fa fa-heart"></i>
+                        </div>
+                        <div class="media-body">
+                            <h2 class="media-heading">Labore et dolore</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Recent Works-->
+<section id="recent-works">
+    <div class="container">
+        <div class="panel panel-default wow animated fadeInDown">
+            <div class="panel-heading">recent-works</div>
+            <div class="panel-body">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                et dolore magna aliqua. Ut enim ad minim veniam
+            </div>
+        </div>
+        <div class="recent-works-items">
+            <div class="row">
+                <div class="col-md-3 col-sm-4 col-xs-12">
+                    <div class="recent-works-item">
+                        <a href=""><img src="img/portfolio/recent/item1.png" alt=""></a>
+                        <div class="overlay">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">Business theme</div>
+                                <div class="panel-body">
+                                    There are many variations of passages of Lorem Ipsum available, but the majority
+                                </div>
+                                <a href="#">
+                                    <i class="fa fa-eye"></i>
+                                    <span>View</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-12">
+                    <div class="recent-works-item">
+                        <a href=""><img src="img/portfolio/recent/item2.png" alt=""></a>
+                        <div class="overlay">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">Business theme</div>
+                                <div class="panel-body">
+                                    There are many variations of passages of Lorem Ipsum available, but the majority
+                                </div>
+                                <a href="#">
+                                    <i class="fa fa-eye"></i>
+                                    <span>View</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-12">
+                    <div class="recent-works-item">
+                        <a href=""><img src="img/portfolio/recent/item3.png" alt=""></a>
+                        <div class="overlay">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">Business theme</div>
+                                <div class="panel-body">
+                                    There are many variations of passages of Lorem Ipsum available, but the majority
+                                </div>
+                                <a href="#">
+                                    <i class="fa fa-eye"></i>
+                                    <span>View</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-12">
+                    <div class="recent-works-item">
+                        <a href=""><img src="img/portfolio/recent/item4.png" alt=""></a>
+                        <div class="overlay">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">Business theme</div>
+                                <div class="panel-body">
+                                    There are many variations of passages of Lorem Ipsum available, but the majority
+                                </div>
+                                <a href="#">
+                                    <i class="fa fa-eye"></i>
+                                    <span>View</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-12">
+                    <div class="recent-works-item">
+                        <a href=""><img src="img/portfolio/recent/item5.png" alt=""></a>
+                        <div class="overlay">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">Business theme</div>
+                                <div class="panel-body">
+                                    There are many variations of passages of Lorem Ipsum available, but the majority
+                                </div>
+                                <a href="#">
+                                    <i class="fa fa-eye"></i>
+                                    <span>View</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-12">
+                    <div class="recent-works-item">
+                        <a href=""><img src="img/portfolio/recent/item6.png" alt=""></a>
+                        <div class="overlay">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">Business theme</div>
+                                <div class="panel-body">
+                                    There are many variations of passages of Lorem Ipsum available, but the majority
+                                </div>
+                                <a href="#">
+                                    <i class="fa fa-eye"></i>
+                                    <span>View</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-12">
+                    <div class="recent-works-item">
+                        <a href=""><img src="img/portfolio/recent/item7.png" alt=""></a>
+                        <div class="overlay">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">Business theme</div>
+                                <div class="panel-body">
+                                    There are many variations of passages of Lorem Ipsum available, but the majority
+                                </div>
+                                <a href="#">
+                                    <i class="fa fa-eye"></i>
+                                    <span>View</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-12">
+                    <div class="recent-works-item">
+                        <a href=""><img src="img/portfolio/recent/item8.png" alt=""></a>
+                        <div class="overlay">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">Business theme</div>
+                                <div class="panel-body">
+                                    There are many variations of passages of Lorem Ipsum available, but the majority
+                                </div>
+                                <a href="#">
+                                    <i class="fa fa-eye"></i>
+                                    <span>View</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--services-->
+<section id="services">
+    <div class="container">
+        <div class="services-items">
+            <div class="row">
+                <div class="col-md-4 col-sm-6 col-xs-12 wow animated fadeInDown">
+                    <div class="media">
+                        <div class="media-left media-middle">
+                            <img class="media-object" src="img/services/services1.png" alt="...">
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">SEO Marketing</h4>
+                            <p>Lorem ipsum dolor sit ame consectetur adipisicing elit</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 wow animated fadeInDown">
+                    <div class="media">
+                        <div class="media-left media-middle">
+                            <img class="media-object" src="img/services/services2.png" alt="...">
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">SEO Marketing</h4>
+                            <p>Lorem ipsum dolor sit ame consectetur adipisicing elit</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 wow animated fadeInDown">
+                    <div class="media">
+                        <div class="media-left media-middle">
+                            <img class="media-object" src="img/services/services3.png" alt="...">
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">SEO Marketing</h4>
+                            <p>Lorem ipsum dolor sit ame consectetur adipisicing elit</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 wow animated fadeInDown">
+                    <div class="media">
+                        <div class="media-left media-middle">
+                            <img class="media-object" src="img/services/services4.png" alt="...">
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">SEO Marketing</h4>
+                            <p>Lorem ipsum dolor sit ame consectetur adipisicing elit</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 wow animated fadeInDown">
+                    <div class="media">
+                        <div class="media-left media-middle">
+                            <img class="media-object" src="img/services/services5.png" alt="...">
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">SEO Marketing</h4>
+                            <p>Lorem ipsum dolor sit ame consectetur adipisicing elit</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 wow animated fadeInDown">
+                    <div class="media">
+                        <div class="media-left media-middle">
+                            <img class="media-object" src="img/services/services6.png" alt="...">
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">SEO Marketing</h4>
+                            <p>Lorem ipsum dolor sit ame consectetur adipisicing elit</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--middle-->
+<section id="middle">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-xs-12 middle-left wow animated fadeInDown">
+                <div class="panel panel-default">
+                    <div class="panel-heading">Our Skills</div>
+                    <div class="panel-body">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </div>
+                </div>
+                <div class="progress-wrap">
+                    <div class="progress-item">
+                        <h4>Graphic Design</h4>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 85%;">
+                                <span class="color1">85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-item">
+                        <h4>HTML</h4>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 95%;">
+                                <span class="color2">95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-item">
+                        <h4>CSS</h4>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                                <span class="color3">80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-item">
+                        <h4>Wordpress</h4>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                                <span class="color4">90%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-xs-12 middle-right wow animated fadeInDown">
+                <h3>Why People like us?</h3>
+                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                    <div class="panel panel-default">
+                        <div class="panel-heading active" role="tab" id="headingOne">
+                            <h4 class="panel-title">
+                                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Lorem ipsum dolor sit amet
+                                    <i class="fa fa-angle-right pull-right"></i>
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                            <div class="panel-body">
+                                <div class="media">
+                                    <div class="media-left" >
+                                        <a href="#">
+                                            <img class="media-object" src="img/accordion1.png" alt="...">
+                                        </a>
+                                    </div>
+                                    <div class="media-body">
+                                        <h4 class="media-heading">Adipisicing elit</h4>
+                                        <p>Lorem ipsum dolor sit amet ，consectetur adipisicing elit ， sed do eiusmod tempor incididunt ut labore</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingTwo">
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Lorem ipsum dolor sit amet
+                                    <i class="fa fa-angle-right pull-right"></i>
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                            <div class="panel-body">
+                                <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingThree">
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Lorem ipsum dolor sit amet
+                                    <i class="fa fa-angle-right pull-right"></i>
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                            <div class="panel-body">
+                                <div class="media">
+                                    <div class="media-left">
+                                        <a href="#">
+                                            <img class="media-object" src="img/accordion1.png" alt="...">
+                                        </a>
+                                    </div>
+                                    <div class="media-body">
+                                        <h4 class="media-heading">Adipisicing elit</h4>
+                                        <p>Lorem ipsum dolor sit amet ，consectetur adipisicing elit ， sed do eiusmod tempor incididunt ut labore</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="heading4">
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                                    Lorem ipsum dolor sit amet
+                                    <i class="fa fa-angle-right pull-right"></i>
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading4">
+                            <div class="panel-body">
+                                <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--content-->
+<section id="content">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-8 wow animated fadeInDown">
+                <div class="tab-wrap clearfix">
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                        <!-- Nav tabs -->
+                        <ul class="nav nav-pills nav-stacked" role="tablist">
+                            <li role="presentation" class="active"><a href="#tab01" aria-controls="tab01" role="tab" data-toggle="tab">Responsive Web Design</a></li>
+                            <li role="presentation"><a href="#tab02" aria-controls="tab02" role="tab" data-toggle="tab">Premium Plugin Included</a></li>
+                            <li role="presentation"><a href="#tab03" aria-controls="tab03" role="tab" data-toggle="tab">Predefine Layout</a></li>
+                            <li role="presentation"><a href="#tab04" aria-controls="tab04" role="tab" data-toggle="tab">Our Philosopy</a></li>
+                            <li role="presentation"><a href="#tab05" aria-controls="tab05" role="tab" data-toggle="tab">What We Do?</a></li>
+                        </ul>
+                    </div>
+                    <!-- Tab panes -->
+                    <div class="col-lg-8 col-md-12 col-sm-12">
+                        <div class="tab-content">
+                            <div role="tabpanel" class="tab-pane fade in active" id="tab01">
+                                <div class="media">
+                                    <div class="media-left">
+                                        <img class="media-object" src="img/tab2.png" alt="...">
+                                    </div>
+                                    <div class="media-body">
+                                        <h2 class="media-heading">Adipisicing elit</h2>
+                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use.</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div role="tabpanel" class="tab-pane fade" id="tab02">
+                                <div class="media">
+                                    <div class="media-left">
+                                        <img class="media-object" src="img/tab1.png" alt="...">
+                                    </div>
+                                    <div class="media-body">
+                                        <h2 class="media-heading">Adipisicing elit</h2>
+                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use.</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div role="tabpanel" class="tab-pane fade" id="tab03">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
+                            </div>
+                            <div role="tabpanel" class="tab-pane fade" id="tab04">
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words</p>
+                            </div>
+                            <div role="tabpanel" class="tab-pane fade" id="tab05">
+                                <P>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures,</P>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 wow animated fadeInDown">
+                <div class="testimonial">
+                    <h3>Testimonial</h3>
+                    <div class="media">
+                        <div class="media-left media-middle">
+                            <img class="img-circle" src="img/testimonials1.png" alt="...">
+                        </div>
+                        <div class="media-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+                            <p class="media-heading"><strong>-John Doe/ </strong>Director of corlate.com</p>
+                        </div>
+                    </div>
+                    <div class="media">
+                        <div class="media-left media-middle">
+                            <img class="img-circle" src="img/testimonials1.png" alt="...">
+                        </div>
+                        <div class="media-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+                            <p class="media-heading"><strong>-John Doe/ </strong>Director of corlate.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--partner-->
+<section id="partner">
+    <div class="container">
+        <div class="partner-top wow animated fadeInDown">
+            <h3>Our Partners</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                et dolore magna aliqua. Ut enim ad minim veniam</p>
+        </div>
+        <div class="partner-alink">
+            <a href="" class="wow animated fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms"><img src="img/partners/partner1.png" alt="" class="img-responsive"></a>
+            <a href="" class="wow animated fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms"><img src="img/partners/partner2.png" alt="" class="img-responsive"></a>
+            <a href="" class="wow animated fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms"><img src="img/partners/partner3.png" alt="" class="img-responsive"></a>
+            <a href="" class="wow animated fadeInDown" data-wow-duration="1000ms" data-wow-delay="1200ms"><img src="img/partners/partner4.png" alt="" class="img-responsive"></a>
+            <a href="" class="wow animated fadeInDown" data-wow-duration="1000ms" data-wow-delay="1500ms"><img src="img/partners/partner5.png" alt="" class="img-responsive"></a>
+        </div>
+    </div>
+</section>
+
+<!--conatcat-info-->
+<section id="conatcat-info">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8 wow animated fadeInDown">
+                <div class="media">
+                    <div class="media-left">
+                        <i class="fa fa-phone"></i>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">Have a question or need a custom quote?</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation +0123 456 70 80</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--bottom-->
+<section id="bottom" class="hidden-xs">
+    <div class="container">
+        <div class="row wow animated fadeInDown">
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="widget">
+                    <dl>
+                        <dt>COMPANY</dt>
+                        <dd><a href="">About us</a></dd>
+                        <dd><a href="">We are hiring</a></dd>
+                        <dd><a href="">Meet the team</a></dd>
+                        <dd><a href="">Copyright</a></dd>
+                        <dd><a href="">Terms of use</a></dd>
+                        <dd><a href="">Privacy policy</a></dd>
+                        <dd><a href="">Contact us</a></dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="widget">
+                    <dl>
+                        <dt>SUPPORT</dt>
+                        <dd><a href="#">Faq</a></dd>
+                        <dd><a href="#">Blog</a></dd>
+                        <dd><a href="#">Forum</a></dd>
+                        <dd><a href="#">Documentation</a></dd>
+                        <dd><a href="#">Refund policy</a></dd>
+                        <dd><a href="#">Ticket system</a></dd>
+                        <dd><a href="#">Billing system</a></dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="widget">
+                    <dl>
+                        <dt>DEVELOPERS</dt>
+                        <dd><a href="">Web Development</a></dd>
+                        <dd><a href="">SEO Marketing</a></dd>
+                        <dd><a href="">Theme</a></dd>
+                        <dd><a href="">Development</a></dd>
+                        <dd><a href="">Email Marketing</a></dd>
+                        <dd><a href="">Plugin Development</a></dd>
+                        <dd><a href="">Article Writing</a></dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="widget">
+                    <dl>
+                        <dt>OUR PARTNERS</dt>
+                        <dd><a href="">Adipisicing Elit</a></dd>
+                        <dd><a href="">Eiusmod</a></dd>
+                        <dd><a href="">Tempor</a></dd>
+                        <dd><a href="">Veniam</a></dd>
+                        <dd><a href="">Exercitation</a></dd>
+                        <dd><a href="">Ullamco</a></dd>
+                        <dd><a href="">Laboris</a></dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="lib/jquery/jquery.js"></script>
+<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+<script src="lib/jquery/wow.min.js"></script>
+<script src="js/js.js"></script>
+
+
+<script type="text/javascript">
+    /*页面滚动动画*/
+    var wow = new WOW({
+        boxClass: 'wow',
+        animateClass: 'animated',
+        offset: 0,
+        mobile: true,
+        live: true
+    });
+    wow.init();
+</script>
+
+</body>
+</html>

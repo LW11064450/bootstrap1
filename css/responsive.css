@@ -1,0 +1,99 @@
+/*lg*/
+@media (min-width: 1200px) {
+    /* Make Navigation Toggle on Desktop Hover */
+    .dropdown:hover .dropdown-menu {
+        display: block;
+        -webkit-animation: fadeInUp 400ms;
+        animation: fadeInUp 400ms;
+    }
+}
+
+
+/* md */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    /* Make Navigation Toggle on Desktop Hover */
+    .dropdown:hover .dropdown-menu {
+        display: block;
+        -webkit-animation: fadeInUp 400ms;
+        animation: fadeInUp 400ms;
+    }
+    #recent-works .overlay > .panel-default > .panel-heading{
+        font-size: 20px;
+    }
+
+
+}
+
+/* sm */
+@media (min-width: 768px) and (max-width: 991px) {
+    /* Make Navigation Toggle on Desktop Hover */
+    .dropdown:hover .dropdown-menu {
+        display: block;
+        -webkit-animation: fadeInUp 400ms;
+        animation: fadeInUp 400ms;
+    }
+    #header .nav-pills > li + li {
+        margin-left: 6px;
+    }
+    #middle .middle-right .panel-default  .panel-body .media-left{
+        display: block;
+        margin-bottom: 20px;
+    }
+
+}
+
+
+
+/*xs*/
+@media (max-width: 1090px) and  (min-width: 768px){
+    #main-ad .carousel-inner .container .animation-item01{
+        font-size: 25px;
+    }
+}
+
+
+@media (max-width: 767px){
+    #header .nav-pills > li  {
+        float: none;
+        margin-left: 35px;
+    }
+    #main-ad .carousel-inner .container .animation-item01{
+        font-size: 25px;
+    }
+    #header .nav-pills .open .dropdown-menu {
+        position: relative;
+        float: none;
+    }
+    #features .features-items h2 {
+        font-size: 18px;
+
+    }
+    #features .features-items p{
+        font-size:  14px;
+    }
+    #features .features-items i{
+        font-size: 36px;
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+    }
+    #recent-works .col-xs-12.col-sm-4.col-md-3{
+        padding: 0 15px;
+    }
+
+    #middle  .media-left,
+    .media-right,
+    .media-body{
+        vertical-align: middle;
+    }
+
+    #recent-works .overlay > .panel-default > .panel-heading{
+        font-size: 20px;
+    }
+    #content .tab-wrap > div .tab-pane .media-left{
+        display: block;
+        margin-bottom: 20px;
+    }
+
+}
